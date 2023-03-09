@@ -2,6 +2,18 @@ import './style.css';
 import { url } from './utils/url.js';
 import fetchScores from './modules/fetchScores.js';
 
+async function setData() {
+  try {
+    const response = await fetch(url);
+    const updatedData = await response.json();
+
+    return updatedData;
+  } catch (error) {
+    return error;
+  }
+}
+
+const notification = document.getElementById('notification');
 const refresh = document.getElementById('refresh-btn');
 refresh.addEventListener('click', fetchScores);
 
@@ -21,6 +33,11 @@ form.addEventListener('submit', async (e) => {
     },
     body: JSON.stringify(scores),
   });
+  await setData(scores);
+  notification.classList.add('show');
+  setTimeout(() => {
+    notification.classList.remove('show');
+  }, 3000);
   form.reset();
 });
 fetchScores();
