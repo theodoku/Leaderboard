@@ -1,19 +1,10 @@
-const arr = [
-  { name: 100 },
-  { name: 20 },
-  { name: 50 },
-  { name: 78 },
-  { name: 125 },
-  { name: 77 },
-  { name: 42 },
-];
-
-const render = () => {
-  const score = document.getElementById('score-record');
-  arr.forEach(({ name }) => {
-    score.innerHTML += '';
-    score.innerHTML += `<li>Name: ${name}</li>
-        `;
+const render = async (scores) => {
+  const record = document.getElementById('score-record');
+  record.innerHTML = '';
+  scores.forEach(({ user, score }) => {
+    record.innerHTML += `
+      <li>${user}: ${score}</li>
+    `;
   });
 };
 
