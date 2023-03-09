@@ -47,6 +47,7 @@ h2 {
   overflow-y: scroll;
   margin-top: 25px;
   padding: 0;
+  max-height: 560px;
 }
 
 #score-record li {
