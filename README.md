@@ -74,8 +74,7 @@ Clone this repository to your desired folder:
 
 ### Usage
 
-This project can be used to practice Webpack and Leaderboard API.
-
+To run the project open the terminal and run npm start, the project will open in your web browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
