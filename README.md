@@ -22,7 +22,6 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-
 # 📖 Leaderboard <a name="about-project"></a>
 
 > "Leaderboard" is website displays scores submitted by various players and allows users to submit their own scores. The data is securely preserved using an external Leaderboard API service.
@@ -45,13 +44,11 @@ The key features of this website include.
 > - **ES6 Syntax**
 > - **Gitflow**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://theodoku.github.io/Leaderboard/dist/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,11 +63,12 @@ In order to run this project you need to install npm and node.js
 ### Setup
 
 Clone this repository to your desired folder:
+
 1. Use VScode: open terminal in VScode
 2. Navigate to the directory where you want clone the copy of this repository
 3. Create new directory [optional]
 4. Clone the repo using the below command
- > git clone  https://github.com/theodoku/Leaderboard.git
+   > git clone https://github.com/theodoku/Leaderboard.git
 
 ### Usage
 
@@ -88,7 +86,6 @@ To run the project open the terminal and run npm start, the project will open in
 - Twitter: [@twitterhandle](https://twitter.com/dok_theo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Theophilusdoku)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -97,25 +94,24 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/theodoku/Leaderboard/issues).
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank:
+
 - [Microverseinc](https://github.com/microverseinc) for.
+
   - [Readme-template](https://github.com/microverseinc/readme-template)
 
 - [Webpack](https://webpack.js.org/guides/getting-started/)
 - [Leaderboard API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,6 +119,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
